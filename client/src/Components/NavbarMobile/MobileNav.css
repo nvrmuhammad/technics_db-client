@@ -1,0 +1,34 @@
+#Navbar_mobile {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7f9f9;
+  position: fixed;
+  bottom: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navigator_navbar_mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #333;
+  padding: 12px;
+  transition: 0.2s ease-in-out;
+}
+
+.active {
+  background-color: #2471a3;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  #Navbar_mobile {
+    display: flex;
+  }
+}
