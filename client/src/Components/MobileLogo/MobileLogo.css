@@ -9,9 +9,25 @@
   top: 0;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+#Logo_desktop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #3498db;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 .mobile_logo {
   font-size: 25px;
+  font-weight: 500;
+  color: #f7f9f9;
+}
+.desktop_logo {
+  font-size: 35px;
   font-weight: 500;
   color: #f7f9f9;
 }
@@ -20,10 +36,16 @@
   #Logo_mobile {
     display: flex;
   }
+  #Logo_desktop {
+    display: none;
+  }
 }
 @media screen and (max-width: 255px) {
   #Logo_mobile {
     display: flex;
+  }
+  #Logo_desktop {
+    display: none;
   }
   .mobile_logo {
     font-size: 22px;
@@ -32,6 +54,9 @@
 @media screen and (max-width: 230px) {
   #Logo_mobile {
     display: flex;
+  }
+  #Logo_desktop {
+    display: none;
   }
   .mobile_logo {
     font-size: 19px;
