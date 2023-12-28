@@ -1,0 +1,50 @@
+.admin_panel_user_list_table {
+  min-width: 70%;
+  min-height: 10vh;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #333;
+  margin: 20px;
+}
+.thead_table {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #515a5a;
+  color: #ecf0f1;
+  padding: 5px;
+  font-size: 20px;
+}
+.thead_table b {
+  width: 25%;
+  padding: 10px 0;
+}
+
+.tbody_table {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: 17px;
+  border: 1px solid;
+}
+
+.tbody_table p {
+  width: 25%;
+  padding: 5px;
+  padding: 10px;
+  /* background-color: #fff; */
+}
+
+.tbody_table button {
+  width: 40px;
+  height: 35px;
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  padding: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
