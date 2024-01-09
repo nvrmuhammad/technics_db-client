@@ -48,3 +48,15 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 570px) {
+  .tbody_table {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tbody_table {
+    flex-direction: column;
+    font-size: 14px;
+  }
+}
